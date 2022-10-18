@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
+  max-width: 100%;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.row {
+  display: flex;
+  background-color: rgb(189, 172, 172);
+  margin-bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  background: rgb(189, 172, 172);
+  background: rgb(222, 191, 214);
+  content: "";
+  display: block;
+  height: 5px;
+  margin: 50px auto;
+  width: 60%;
+}
+.row2 {
+  display: flex;
+  background-color: rgb(222, 191, 214);
+  margin-bottom: 10px;
+}
+.block1 {
+  margin-right: 5px;
+  background-color: rgb(162, 187, 190);
+  width: 20%;
+}
+.block {
+  margin-right: 5px;
+  background-color: rgb(162, 187, 190);
+  width: 45%;
+}
+.block:last-child {
+  margin-right: 0;
+}
+.block2 {
+  margin-right: 5px;
+  background-color: rgb(189, 172, 172);
+  width: 70%;
+}
+.block2:last-child {
+  width: 30%;
+}
+.block2:last-child {
+  margin-right: 0px;
+}
+span {
+  font-style: italic;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

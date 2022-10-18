@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+  margin-bottom: 4%;
+}
+
+.avatar {
+  height: 250px;
+}
+.pic {
+  height: 120%;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.profile {
+  color: rgb(128, 119, 128);
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: auto 10px;
+  margin-right: 20px;
+}

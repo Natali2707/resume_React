@@ -1,0 +1,30 @@
+.job {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.card {
+  display: flex;
+  margin-bottom: 20px;
+}
+.text {
+  margin: auto 5px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.icon {
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+  box-shadow: 2px 2px 23px 3px rgb(222, 191, 214);
+}
+.icon:hover {
+  box-shadow: 5px 5px 5px 5px #badedb;
+  transform: translate(-10%);
+  transition: 0.3s;
+}
+

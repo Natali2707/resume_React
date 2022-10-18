@@ -1,0 +1,20 @@
+.hobby {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 5px;
+}
+
+.text {
+  margin: auto 5px;
+  border: 1px dashed rgb(107, 107, 127);
+  padding: 5px;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  color: rgb(33, 117, 128);
+}

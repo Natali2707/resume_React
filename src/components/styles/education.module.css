@@ -1,0 +1,28 @@
+.head {
+  display: flex;
+  flex-wrap: wrap;
+}
+.educ {
+  list-style: none;
+}
+.card {
+  display: flex;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+.logo:hover {
+  box-shadow: 5px 5px 5px 5px #badedb;
+  transform: scale(+220%);
+  transition: 0.5s;
+}
+.text {
+  margin: auto 5px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}

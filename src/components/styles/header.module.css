@@ -1,0 +1,15 @@
+.header {
+  background-color: rgb(77, 131, 138);
+  margin-bottom: 5px;
+}
+.introduce {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.prof,
+i {
+  color: rgb(249, 215, 215);
+}
