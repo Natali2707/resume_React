@@ -12,7 +12,7 @@ const PersonInfo = () => {
                 <img
                   className={styles.icon}
                   alt="linkedin"
-                  src={process.env.PUBLIC_URL + "/static/media/linkedin.jpg"}
+                  src={process.env.PUBLIC_URL + "linkedin.jpg"}
                 />
               </a>
             </div>
@@ -21,7 +21,7 @@ const PersonInfo = () => {
                 <img
                   className={styles.icon}
                   alt="github"
-                  src={process.env.PUBLIC_URL + "/static/media/github.png"}
+                  src={process.env.PUBLIC_URL + "github.png"}
                 />
               </a>
             </div>
@@ -32,7 +32,7 @@ const PersonInfo = () => {
             <img
               className={styles.icon}
               alt="address"
-              src={process.env.PUBLIC_URL + "/static/media/house.jpg"}
+              src={process.env.PUBLIC_URL + "house.jpg"}
             />
 
             <div className={styles.text}>Belarus, Minsk</div>
@@ -44,7 +44,7 @@ const PersonInfo = () => {
             <img
               className={styles.icon}
               alt="phone"
-              src={process.env.PUBLIC_URL + "/static/media/phone.jpg"}
+              src={process.env.PUBLIC_URL + "phone.jpg"}
             />
 
             <div className={styles.text}>+375-(29)-746-54-18</div>
