@@ -11,7 +11,7 @@ const Experience = () => {
               <img
                 className={styles.icon}
                 alt="experience"
-                src={process.env.PUBLIC_URL + "job.png"}
+                src={process.env.PUBLIC_URL + "/image/job.png"}
               />
             </div>
             <div className={styles.text}>
@@ -30,7 +30,7 @@ const Experience = () => {
               <img
                 className={styles.icon}
                 alt="experience"
-                src={process.env.PUBLIC_URL + "job.png"}
+                src={process.env.PUBLIC_URL + "/image/job.png"}
               />
             </div>
 
@@ -49,7 +49,7 @@ const Experience = () => {
               <img
                 className={styles.icon}
                 alt="experience"
-                src={process.env.PUBLIC_URL + "job.png"}
+                src={process.env.PUBLIC_URL + "/image/job.png"}
               />
             </div>
             <div className={styles.text}>
@@ -67,7 +67,7 @@ const Experience = () => {
               <img
                 className={styles.icon}
                 alt="experience"
-                src={process.env.PUBLIC_URL + "job.png"}
+                src={process.env.PUBLIC_URL + "/image/job.png"}
               />
             </div>
             <div className={styles.text}>
